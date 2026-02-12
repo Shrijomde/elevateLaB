@@ -1,0 +1,58 @@
+┌──(root㉿kali)-[~]
+└─# nmap -sS 192.168.197.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-12 02:32 EST
+Nmap scan report for 192.168.197.1
+Host is up (0.00067s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:C0:00:08 (VMware)
+
+Nmap scan report for 192.168.197.2
+Host is up (0.000060s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 00:50:56:F8:81:56 (VMware)
+
+Nmap scan report for 192.168.197.128
+Host is up (0.00050s latency).
+Not shown: 987 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+5357/tcp open  wsdapi
+5985/tcp open  wsman
+MAC Address: 00:0C:29:BA:1B:1C (VMware)
+
+Nmap scan report for 192.168.197.136
+Host is up (0.00046s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+3389/tcp open  ms-wbt-server
+MAC Address: 00:0C:29:07:61:9F (VMware)
+
+Nmap scan report for 192.168.197.254
+Host is up (0.00020s latency).
+All 1000 scanned ports on 192.168.197.254 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:50:56:F6:08:91 (VMware)
+
+Nmap scan report for 192.168.197.134
+Host is up (0.0000030s latency).
+All 1000 scanned ports on 192.168.197.134 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 12.70 seconds
